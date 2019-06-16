@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/ProceduralGeneration/Scenes/GridWithParamsGridLinesExample.unity
+    guid: 2e1a6969cbfa6483d842dfaecd6e5020
   m_configObjects: {}
