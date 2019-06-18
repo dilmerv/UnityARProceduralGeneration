@@ -9,31 +9,31 @@ public class ProceduralParam : ScriptableObject
     [SerializeField,Range(1,200)]
     public int height = 1;
 
-    [SerializeField,Range(0.1f,50.0f)]
+    [SerializeField,Range(0,50.0f)]
     public float shapeWidth = 2.0f;
 
-    [SerializeField,Range(0.1f,50.0f)]
+    [SerializeField,Range(0,50.0f)]
     public float shapeHeight = 2.0f;
 
-    [SerializeField,Range(0.1f,50.0f)]
+    [SerializeField,Range(0,50.0f)]
     public float shapeDepth = 2.0f;
 
-    [SerializeField,Range(0.1f, 50.0f)]
+    [SerializeField,Range(0, 50.0f)]
     public float maxRandomHeight = 1.0f;
 
-    [SerializeField,Range(0.1f, 50.0f)]
+    [SerializeField,Range(0, 50.0f)]
     public float maxRandomWidth = 1.0f;
 
-    [SerializeField,Range(0.1f, 50.0f)]
+    [SerializeField,Range(0, 50.0f)]
     public float maxRandomDepth = 1.0f;
 
-    [SerializeField,Range(0.1f, 50.0f)]
+    [SerializeField,Range(0, 50.0f)]
     public float maxRandomHeightOffset = 1.0f;
 
-    [SerializeField,Range(0.1f, 50.0f)]
+    [SerializeField,Range(0, 50.0f)]
     public float maxRandomWidthOffset = 1.0f;
 
-    [SerializeField,Range(0.1f, 50.0f)]
+    [SerializeField,Range(0, 50.0f)]
     public float maxRandomDepthOffset = 1.0f;
 
     [SerializeField, Range(1,100)]

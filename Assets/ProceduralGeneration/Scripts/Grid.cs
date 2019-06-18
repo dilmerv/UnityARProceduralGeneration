@@ -94,7 +94,7 @@ public class Grid : MonoBehaviour
         Random.InitState(randomSeed);
         grid = new GameObject[height, width];               
         proceduralMaterials = new Material[proceduralMaterialsToGenerate];
-
+        
         // generate materials if needed
         if(proceduralMaterialsToGenerate > 0 && defaultMaterials.Length == 0)
             proceduralMaterials = MeshRendererExtensions.GetRandomMaterials(shaderName, proceduralMaterialsToGenerate);
